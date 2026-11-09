@@ -84,6 +84,7 @@ h2.plain { font-size: 22px; margin: 36px 0 10px; }
 .btn { display: inline-block; background: var(--amber); color: var(--teal-deep); text-decoration: none; font-weight: 700; padding: 9px 18px; border-radius: 999px; }
 .btn:hover { filter: brightness(1.06); }
 .btn.ghost { background: transparent; color: #FDF9F0; border: 1px solid rgba(253,249,240,.5); font-weight: 600; }
+header.hero a.btn:not(.ghost) { color: var(--teal-deep); }
 .soon { font-size: 14px; color: rgba(253,249,240,.8); }
 
 footer { border-top: 1px solid var(--border); padding: 22px 20px; color: var(--muted); font-size: 14px; }
